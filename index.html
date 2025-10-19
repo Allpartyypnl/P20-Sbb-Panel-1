@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Suspended</title>
+    <style>
+        @keyframes blinkBackground {
+            0% { background-color: black; }
+            50% { background-color: darkred; }
+            100% { background-color: black; }
+        }
+
+        body {
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            animation: blinkBackground 2s infinite;
+        }
+        
+        .container {
+            max-width: 600px;
+        }
+
+        .heading {
+            color: red;
+        }
+
+        .button {
+            background-color: green;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-flex;
+            align-items: center;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+
+        .button img {
+            margin-right: 10px;
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">App Suspended</h1>
+        <p>आपका ऐप बन्द कर दिया गया है क्योंकि आपने आवश्यक भुगतान नहीं किया है। सहायता के लिए कृपया व्हाट्सएप पर डेवलपर से संपर्क करें।</p>
+        <p><strong></strong></p>
+        <a href="https://wa.me/00" class="button">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo">
+            Contact Developer
+        </a>
+        <p>Powered by SK Admin</p>
+    </div>
+</body>
+</html>
+
